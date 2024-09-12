@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+
+.bg{
+    position:relative; /* isko dalne se pic ke upar ka text shi ho gya*/
+    width:100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height:500px;
+ }
+
+.desc{
+    position: absolute;
+    padding:0.5 rem 2.5 rem;
+    top:10%;
+    left:50%;
+    background-color: white;
+    color:black;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow:0 0 10px rgba(0,0,0,0,3); 
+
+}
+section{
+    color:black;
+    background-color:white;
+    padding:5rem 0;
+}
+.sechead{
+    font-size:5rem;
+    padding:0 10rem;
+}
+.text{
+    font-size:1.5rem;
+    margin: 5rem 10rem;
+    padding: 0 10 rem;
+}
+#g0{
+    top:10%;
+}
+#g1{
+    background-image: url(reddead.png); /*image ko html m dalne se kam nhi karta*/
+} 
+
+#g2{
+    background-image: url(image2.jpg);
+}
+
+ #g3{
+    background-image: url(image3.jpg);
+} 
